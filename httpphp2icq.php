@@ -1551,14 +1551,8 @@ XML;
 
 		} else {
 			
-		
-			//return true;
-		
-			//echo $resp_xml;
-
 			$this->error = 'resp protocol error ';
 			$this->fget();
-			//file_put_contents("c:/log/" . time(),print_r($this->in_packets, 1));
 			$this->add_error($this->error);
 
 		}
