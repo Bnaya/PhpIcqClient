@@ -1,4 +1,5 @@
 <?php
+//lalaal
 class basic {
 
 	var $errors;
