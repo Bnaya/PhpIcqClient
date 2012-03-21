@@ -96,10 +96,6 @@ class IcqClient extends basic {
 
 		$this->save_session();
 		
-		sql_query(
-		sprintf("INSERT INTO `sms_log` (`uin`,`server`,`ip`) VALUES ('%s','%s','%s')", $this->uin, mysql_real_escape_string($_SERVER['HTTP_HOST']), $_SERVER['REMOTE_ADDR'])
-		);
-		
 		return true;
 
 	}
